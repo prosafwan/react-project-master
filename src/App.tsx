@@ -6,6 +6,7 @@ import Contact from './pages/Contact';
 import Navbar from './components/header/Navbar';
 import './App.css'
 import { ThemePage } from './pages/ThemePage';
+import AllHook from './pages/AllHook';
 
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/theme" element={<ThemePage />} />
+        <Route path="/all-hook" element={<AllHook />} />
         {/* <Route path="*" element={<NotFound />} /> */}
       </Routes>
     </Router>
